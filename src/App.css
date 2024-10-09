@@ -1,0 +1,155 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.connect-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #218838;
+}
+
+.account-info {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #495057;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #28a745;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.styled-link {
+  margin-top: 20px;
+  display: inline-block;
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.styled-link:hover {
+  text-decoration: underline;
+}
+
+.history-container {
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: center;
+  width: 90%; /* Set a width to control the container's size */
+  max-width: 800px; /* Ensure it doesn't exceed this width */
+  margin-left: auto; /* Center the container */
+  margin-right: auto; /* Center the container */
+  overflow-x: auto; /* Allow horizontal scrolling if necessary, but should fit */
+}
+
+.history-table {
+  width: 100%; /* Make the table take full width of the container */
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Set fixed layout to manage width */
+}
+
+.history-table th,
+.history-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center; /* Center the content */
+  word-wrap: break-word; /* Allow long words to break */
+}
+
+.history-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #495057;
+}
+
+.history-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.history-table tr:hover {
+  background-color: #e9ecef;
+}
+
+.no-transfers {
+  font-size: 16px;
+  color: #6c757d;
+  margin-top: 20px;
+}

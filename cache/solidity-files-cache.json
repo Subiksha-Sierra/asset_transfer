@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\flowchart\\Dbms\\bc\\asset_transfer_app\\asset_transfer_app\\asset\\contracts\\TransferSepoliaEth.sol": {
+      "lastModificationDate": 1727171006026,
+      "contentHash": "bd17f91e9871f3b6ce1a0bc7fabc06b6",
+      "sourceName": "contracts/TransferSepoliaEth.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TransferSepoliaETH"
+      ]
+    }
+  }
+}
